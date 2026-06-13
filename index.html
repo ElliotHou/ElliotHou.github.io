@@ -1,243 +1,184 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Hou Jiasong / ElliotHou personal homepage.">
-    <title>Hou Jiasong / ElliotHou</title>
-
+    <meta name="description" content="侯佳松，南京大学匡亚明荣誉学院学生。记录研究、项目、摄影与写作。">
+    <meta name="theme-color" content="#080b11">
+    <title>侯佳松 | 研究、创造与观察</title>
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
     <canvas id="field-canvas" aria-hidden="true"></canvas>
 
     <div class="page-shell">
-      <nav class="site-nav" aria-label="Primary navigation">
-        <a class="nav-mark" href="#top" aria-label="Hou Jiasong home">
-          <span>EH</span>
+      <nav class="site-nav" aria-label="主导航">
+        <a class="nav-mark" href="#top" aria-label="回到侯佳松主页顶部">
+          <span>侯</span>
         </a>
+        <div class="nav-identity">
+          <strong>侯佳松</strong>
+          <small>南京大学</small>
+        </div>
         <div class="nav-links">
-          <a href="#profile">Profile</a>
-          <a href="#research">Research</a>
-          <a href="#projects">Projects</a>
-          <a href="photography/index.html">Photography</a>
-          <a href="writings/index.html">Writings</a>
-          <a href="#contact">Contact</a>
+          <a href="#profile">关于</a>
+          <a href="#research">方向</a>
+          <a href="#projects">项目</a>
+          <a href="photography/index.html">摄影</a>
+          <a href="writings/index.html">文字</a>
+          <a href="#contact">联系</a>
         </div>
       </nav>
 
       <main id="top" class="site-main">
         <section class="hero-section" aria-labelledby="hero-title">
-          <div class="hero-copy">
-            <!-- Edit personal information here. -->
-            <p class="eyebrow">ElliotHou</p>
-            <h1 id="hero-title">Hou Jiasong</h1>
-            <p class="hero-school">Nanjing University Kuang Yaming Honors School</p>
-            <p class="hero-line">Research-minded engineering for intelligent systems, creative technology, and quiet precision.</p>
-            <div class="hero-actions" aria-label="Primary actions">
-              <a class="button button-primary" href="#projects">View Projects</a>
-              <a class="button button-secondary" href="photography/index.html">Photography</a>
+          <div class="hero-copy reveal-group">
+            <p class="eyebrow">HOU JIASONG / PERSONAL ARCHIVE</p>
+            <h1 id="hero-title">
+              <span>在问题里</span>
+              <em>保持清醒。</em>
+            </h1>
+            <p class="hero-line">侯佳松，南京大学匡亚明荣誉学院。关注智能系统、计算思维，以及技术如何成为表达与理解的工具。</p>
+            <div class="hero-actions" aria-label="主要入口">
+              <a class="button button-primary" href="#projects">查看项目</a>
+              <a class="text-link" href="#profile">认识我 <span aria-hidden="true">↘</span></a>
             </div>
           </div>
 
-          <div class="hero-media" aria-hidden="true">
-            <div class="media-frame">
-              <div class="media-visual"></div>
-            </div>
-            <div class="signal-panel">
-              <span>Research</span>
-              <strong>Intelligence as structure, not spectacle.</strong>
-            </div>
-          </div>
+          <figure class="hero-media reveal-media">
+            <img src="assets/images/campus-blue-hour.png" alt="雨后蓝调时刻的大学校园建筑与树影">
+            <figcaption>
+              <span>南京 / 学习现场</span>
+              <strong>思考发生在安静处，也发生在尚未命名的问题里。</strong>
+            </figcaption>
+          </figure>
         </section>
 
         <section id="profile" class="section profile-section" aria-labelledby="profile-title">
-          <div class="section-kicker">Profile</div>
+          <div class="section-kicker">关于我</div>
           <div class="profile-grid">
-            <h2 id="profile-title">
-              A precise personal archive for future research
-              <span class="inline-image" aria-hidden="true"></span>
-              and creative systems.
-            </h2>
+            <h2 id="profile-title">我把个人主页当作一间持续生长的<span>工作室</span>。</h2>
             <div class="profile-copy">
-              <!-- Replace this placeholder with your personal introduction later. -->
-              <p class="reveal-text">This space will hold a concise personal introduction, research background, academic direction, and selected notes about the way I approach technology, knowledge, and creative work.</p>
-              <p>For now, the page is intentionally restrained: a calm surface for future publications, project notes, personal links, and experiments.</p>
+              <p class="lead">这里不急着给出完整答案，而是保存问题、过程与阶段性的判断。</p>
+              <p>我就读于南京大学匡亚明荣誉学院。学习之外，我也通过摄影、写作和网页实验，训练自己观察世界与组织信息的方式。</p>
+              <dl class="profile-facts">
+                <div><dt>姓名</dt><dd>侯佳松</dd></div>
+                <div><dt>学校</dt><dd>南京大学</dd></div>
+                <div><dt>学院</dt><dd>匡亚明荣誉学院</dd></div>
+              </dl>
             </div>
           </div>
         </section>
 
         <section id="research" class="section research-section" aria-labelledby="research-title">
-          <div class="section-kicker">Research and Interests</div>
-          <div class="research-header">
-            <h2 id="research-title">Interests placed in a clean technical field.</h2>
-            <p>These directions are placeholders. Replace them with your real academic interests when the profile becomes more complete.</p>
+          <div class="research-intro">
+            <h2 id="research-title">正在靠近的方向</h2>
+            <p>它们不是静态标签，而是我用来提出问题、搭建方法和检验想法的入口。</p>
           </div>
 
-          <div class="interest-bento" aria-label="Current interest placeholders">
-            <!-- Edit research interest placeholders here. -->
-            <article class="interest-card interest-large">
-              <span>Artificial Intelligence</span>
-              <p>Learning systems, model behavior, reasoning interfaces, and the design of useful machine intelligence.</p>
-            </article>
-            <article class="interest-card">
-              <span>Computational Thinking</span>
-              <p>Abstraction, algorithms, and disciplined problem framing.</p>
-            </article>
-            <article class="interest-card image-card">
-              <div class="image-visual"></div>
-            </article>
-            <article class="interest-card">
-              <span>Interdisciplinary Research</span>
-              <p>Bridging scientific curiosity with tools from computation and design.</p>
-            </article>
-            <article class="interest-card">
-              <span>Creative Technology</span>
-              <p>Interfaces, media systems, and expressive technical artifacts.</p>
-            </article>
-          </div>
-
-          <div class="accordion-strip" aria-label="Expandable interest details">
-            <article style="--panel-accent: rgba(83, 154, 255, 0.24)">
-              <h3>AI</h3>
-              <p>Model behavior, reasoning, and intelligent tools.</p>
-            </article>
-            <article style="--panel-accent: rgba(195, 219, 255, 0.18)">
-              <h3>Computation</h3>
-              <p>Formal thinking, algorithms, and systems.</p>
-            </article>
-            <article style="--panel-accent: rgba(123, 240, 255, 0.18)">
-              <h3>Research</h3>
-              <p>Questions that cross disciplines with care.</p>
-            </article>
-            <article style="--panel-accent: rgba(70, 102, 180, 0.28)">
-              <h3>Creation</h3>
-              <p>Technology as a medium for precise expression.</p>
-            </article>
+          <div class="interest-layout">
+            <figure class="research-image">
+              <img src="assets/images/research-desk.png" alt="摊开的研究笔记、几何草图与棱镜光影">
+            </figure>
+            <div class="interest-list">
+              <article>
+                <span>智能系统</span>
+                <h3>理解模型如何推理，也关心人如何与它协作。</h3>
+                <p>模型行为、推理界面、机器智能的可用性与边界。</p>
+              </article>
+              <article>
+                <span>计算思维</span>
+                <h3>把复杂问题拆开，再用结构把它重新组织。</h3>
+                <p>抽象、算法、系统与严谨的问题建模。</p>
+              </article>
+              <article>
+                <span>创造性技术</span>
+                <h3>代码不仅完成任务，也可以形成新的表达。</h3>
+                <p>界面、媒介系统、视觉实验与交互叙事。</p>
+              </article>
+            </div>
           </div>
         </section>
 
-        <section class="marquee-section" aria-label="Academic and creative keywords">
+        <section class="marquee-section" aria-label="关注关键词">
           <div class="marquee-track">
-            <span>Artificial Intelligence</span>
-            <span>Systems</span>
-            <span>Research</span>
-            <span>Creative Technology</span>
-            <span>Computation</span>
-            <span>Interfaces</span>
-            <span>Intelligence</span>
-            <span>Academic Craft</span>
+            <span>人工智能</span><span>计算</span><span>系统</span><span>摄影</span><span>写作</span><span>界面</span><span>研究</span><span>创造</span>
           </div>
           <div class="marquee-track" aria-hidden="true">
-            <span>Artificial Intelligence</span>
-            <span>Systems</span>
-            <span>Research</span>
-            <span>Creative Technology</span>
-            <span>Computation</span>
-            <span>Interfaces</span>
-            <span>Intelligence</span>
-            <span>Academic Craft</span>
-          </div>
-        </section>
-
-        <section id="archives" class="section archive-section" aria-labelledby="archive-title">
-          <div class="section-kicker">Archives</div>
-          <div class="archive-header">
-            <h2 id="archive-title">Two quiet rooms for visual work and written thought.</h2>
-            <p>These static subpages are ready for future updates. Replace the placeholders with your own photography series and personal articles when the material is prepared.</p>
-          </div>
-
-          <div class="archive-grid">
-            <a class="archive-tile photography-tile" href="photography/index.html">
-              <span class="archive-type">Photography</span>
-              <strong>Selected frames, field notes, and visual studies.</strong>
-              <small>Enter collection</small>
-            </a>
-            <a class="archive-tile writing-tile" href="writings/index.html">
-              <span class="archive-type">Writings</span>
-              <strong>Essays, notes, reflections, and research-adjacent thinking.</strong>
-              <small>Enter index</small>
-            </a>
+            <span>人工智能</span><span>计算</span><span>系统</span><span>摄影</span><span>写作</span><span>界面</span><span>研究</span><span>创造</span>
           </div>
         </section>
 
         <section id="projects" class="section projects-section" aria-labelledby="projects-title">
-          <div class="pinned-layout">
-            <div class="pin-copy">
-              <div class="section-kicker">Projects</div>
-              <h2 id="projects-title">A reserved index for work that earns its place.</h2>
-              <p>Use these placeholders for research notes, course projects, software experiments, publications, or selected writing.</p>
-            </div>
+          <div class="projects-heading">
+            <div class="section-kicker">项目档案</div>
+            <h2 id="projects-title">让作品说清楚<br>问题与过程。</h2>
+            <p>此处将收录课程项目、研究尝试、软件实验与阶段性成果。</p>
+          </div>
 
-            <div class="project-stack">
-              <!-- Edit project cards, descriptions, tags, and links here. -->
-              <article class="project-card" style="--project-accent: rgba(83, 154, 255, 0.28)">
-                <div class="project-image" aria-hidden="true"></div>
-                <div class="project-content">
-                  <span class="project-index">01</span>
-                  <h3>Project Placeholder One</h3>
-                  <p>A concise description of the project, its research question, or its technical outcome.</p>
-                  <div class="tag-row">
-                    <span>AI</span>
-                    <span>Research</span>
-                    <span>Prototype</span>
-                  </div>
-                  <a href="#" aria-label="Open Project Placeholder One">Open Link</a>
-                </div>
-              </article>
+          <div class="project-stack">
+            <article class="project-card">
+              <div class="project-number">A</div>
+              <div class="project-content">
+                <p class="project-state">待更新 / RESEARCH</p>
+                <h3>第一个研究项目</h3>
+                <p>保留给一个真正值得展开的问题。未来会补充背景、方法、结果与反思。</p>
+              </div>
+              <a href="#contact" aria-label="联系侯佳松了解第一个研究项目">了解近况</a>
+            </article>
+            <article class="project-card project-card-image">
+              <img src="assets/images/night-study.png" alt="夜间工作桌、抽象计算图形与纸张">
+              <div class="project-content">
+                <p class="project-state">进行中 / CREATIVE CODE</p>
+                <h3>个人网页实验</h3>
+                <p>把信息组织、中文排版和轻量交互放进同一个可持续更新的系统。</p>
+              </div>
+              <a href="#top" aria-label="回到页面顶部查看个人网页实验">正在浏览</a>
+            </article>
+            <article class="project-card">
+              <div class="project-number">C</div>
+              <div class="project-content">
+                <p class="project-state">待更新 / OPEN SLOT</p>
+                <h3>下一次认真尝试</h3>
+                <p>为尚未出现的合作、课程成果或独立实验留一个明确的位置。</p>
+              </div>
+              <a href="#contact" aria-label="联系侯佳松讨论合作">讨论合作</a>
+            </article>
+          </div>
+        </section>
 
-              <article class="project-card" style="--project-accent: rgba(195, 219, 255, 0.18)">
-                <div class="project-image" aria-hidden="true"></div>
-                <div class="project-content">
-                  <span class="project-index">02</span>
-                  <h3>Project Placeholder Two</h3>
-                  <p>Reserve this block for a course project, paper reproduction, tool, or personal build.</p>
-                  <div class="tag-row">
-                    <span>Systems</span>
-                    <span>Design</span>
-                    <span>Code</span>
-                  </div>
-                  <a href="#" aria-label="Open Project Placeholder Two">Open Link</a>
-                </div>
-              </article>
-
-              <article class="project-card" style="--project-accent: rgba(123, 240, 255, 0.18)">
-                <div class="project-image" aria-hidden="true"></div>
-                <div class="project-content">
-                  <span class="project-index">03</span>
-                  <h3>Project Placeholder Three</h3>
-                  <p>Add a compact summary and a link to GitHub, a demo, a document, or a publication page.</p>
-                  <div class="tag-row">
-                    <span>Interface</span>
-                    <span>Experiment</span>
-                    <span>Notes</span>
-                  </div>
-                  <a href="#" aria-label="Open Project Placeholder Three">Open Link</a>
-                </div>
-              </article>
-            </div>
+        <section id="archives" class="section archive-section" aria-labelledby="archive-title">
+          <h2 id="archive-title">观察与表达，<span>是研究之外的另一种训练。</span></h2>
+          <div class="archive-grid">
+            <a class="archive-tile photography-tile" href="photography/index.html">
+              <span>摄影</span>
+              <strong>用光线、距离和秩序，练习看见。</strong>
+              <small>进入影像档案</small>
+            </a>
+            <a class="archive-tile writing-tile" href="writings/index.html">
+              <span>文字</span>
+              <strong>把零散的想法，写成可以复查的判断。</strong>
+              <small>进入文字索引</small>
+            </a>
           </div>
         </section>
 
         <section id="contact" class="section contact-section" aria-labelledby="contact-title">
           <div class="contact-panel">
-            <div>
-              <div class="section-kicker">Contact</div>
-              <h2 id="contact-title">Keep the channel open for future work.</h2>
-            </div>
+            <p>CONTACT / 保持联系</p>
+            <h2 id="contact-title">有值得认真讨论的事，<br><em>欢迎来信。</em></h2>
             <div class="contact-links">
-              <!-- Replace these placeholder links later. -->
-              <a href="#" target="_blank" rel="noreferrer">GitHub</a>
-              <a href="mailto:your.email@example.com">Email</a>
-              <a href="#" target="_blank" rel="noreferrer">Personal Link</a>
+              <a href="#" aria-label="GitHub 地址待补充">GitHub <span>地址待补充</span></a>
+              <a href="mailto:your.email@example.com">Email <span>邮箱待替换</span></a>
             </div>
           </div>
         </section>
       </main>
 
       <footer class="site-footer">
-        <span>Hou Jiasong / ElliotHou</span>
-        <span>Nanjing University Kuang Yaming Honors School</span>
+        <strong>侯佳松 / HOU JIASONG</strong>
+        <span>南京大学匡亚明荣誉学院</span>
+        <span>持续学习，持续记录。</span>
       </footer>
     </div>
 
